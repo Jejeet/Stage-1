@@ -1,0 +1,113 @@
+#profile_img{
+height:4.5rem;
+width: 4.5rem;
+border-radius: 50%;
+
+}
+.header{
+    padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.toggle{
+    position: absolute;
+    right: 3rem;
+}
+
+.person{
+display: flex;
+justify-content: center;
+    position: relative;
+}
+.camera{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(52, 64, 84, 0.75) ;
+    height:4.5rem;
+width: 4.5rem;
+border-radius: 50%;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+}
+/* .toggle{
+ justify-content: center;
+ align-items: center;
+ transform: translate(95%, 0%);
+ visibility: hidden;
+} */
+
+#slack{
+   visibility: hidden;
+}
+figcaption p{
+    text-align: center;
+
+}
+div button{
+    background-color: var(--secondary-color);
+   width: 100%;
+   padding:0.8rem 0;
+   cursor: pointer;
+   border: none;
+   border-radius: 0.25rem;
+   font-size: 1.125rem;
+    /* height: 10vh;  */
+}
+.training{
+    margin: auto;
+    padding: 10px;
+    width: 80vw;
+    
+   
+}
+.links{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    margin:2rem auto;
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* @media  all and(min-width : 700px) {
+    .toggle{
+        visibility: visible;
+    }
+    */
+
+@media screen and (min-width: 648px) {
+    .toggle {
+        display: none;
+    }
+   
+    
+}
+@media screen and (max-width: 648px){
+    footer{
+    flex-direction: column;
+
+    }
+}
+footer{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+  
+}
