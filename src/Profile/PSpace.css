@@ -68,6 +68,9 @@ a{
     text-decoration: none;
     color: var(--primary-color);
 }
+.training:hover{
+background-color:#D0D5DD ;
+}
 .nav{
     display: flex;
     justify-content: center;
