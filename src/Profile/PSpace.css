@@ -1,7 +1,12 @@
-#profile_img{
+.pSpace{
+    margin: 0 auto;
+    width: 85%;
+}
+#profile__img{
 height:4.5rem;
 width: 4.5rem;
 border-radius: 50%;
+object-fit: cover;
 
 }
 .header{
@@ -28,19 +33,14 @@ justify-content: center;
     left: 0;
     background-color:rgba(52, 64, 84, 0.75) ;
     height:4.5rem;
-width: 4.5rem;
-border-radius: 50%;
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
+  width: 4.5rem;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+   align-items: center;
 }
-/* .toggle{
- justify-content: center;
- align-items: center;
- transform: translate(95%, 0%);
- visibility: hidden;
-} */
+
 
 #slack{
    visibility: hidden;
@@ -49,23 +49,16 @@ figcaption p{
     text-align: center;
 
 }
-div button{
-    background-color: var(--secondary-color);
-   width: 100%;
-   padding:0.8rem 0;
-   cursor: pointer;
-   border: none;
-   border-radius: 0.25rem;
-   font-size: 1.125rem;
-    /* height: 10vh;  */
-}
+ 
 .training{
-    margin: auto;
-    padding: 10px;
-    width: 80vw;
-    
-   
+    padding: 24px 0;
+    background-color: var(--secondary-color);
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius:8px ;
 }
+   
+
 .links{
    display: flex;
    flex-direction: column;
@@ -86,22 +79,33 @@ a{
     justify-content: space-between;
 }
 
-/* @media  all and(min-width : 700px) {
-    .toggle{
-        visibility: visible;
-    }
-    */
-
-@media screen and (min-width: 648px) {
-    .toggle {
-        display: none;
-    }
-   
-    
+.slack {
+    width: auto;
+    height: 1.625rem;
+} 
+.slack img{
+    width: 100%;
+    height: 100%;
 }
+.desktopIcon {
+    display: none;
+
+}
+    @media only screen and (min-width: 700px) {
+        .desktopIcon {
+            display:flex;
+        }
+        .mobileIcon{
+            display: none;
+        }
+       
+    }
+
+
 @media screen and (max-width: 648px){
     footer{
     flex-direction: column;
+    gap: 15px;
 
     }
 }
