@@ -29,26 +29,26 @@ export default function PSpace() {
       link:"https://books.zuri.team",
       content: "Zuri Books",
       id:"books",
-      title:"Learn more from Zuri library"
+      title:"Learn more about design and coding from Zuri library."
     },
     {
       link:"https://books.zuri.team/python-for-beginners?ref_id=<Adewumi>",
       content: "Python Books",
-      id:"python_book",
-      title:"Beginner to expert Python guide"
+      id:"python__book",
+      title:"Beginner to expert Python guide . It is affordable."
     },
     {
       link:"https://background.zuri.team",
       content: "Background Check for Colors",
       id:"pitch",
-      title:"The Zuri color theme"
+      title:"The Zuri color theme is available and affordable"
     },
 
     {
      link:"https://books.zuri.team",
      content: "Design Books",
-     id:"book_design",
-     title:"Zuri Design books"
+     id:"book__design",
+     title:"This is a free Design books from Zuri. At Zuri, we care about good design and we are happy to help with your design"
   }
   ]
   
