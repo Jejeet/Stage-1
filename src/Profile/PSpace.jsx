@@ -6,10 +6,13 @@ import footertext from "../images/Footer text.png"
 import I4G from "../images/I4G.png"
 import slack from "../images/slack.png"
 import Adewumi from "../images/Adewumi.jpg"
+import share from "../images/share.png"
+import escp from "../images/esclipsis.png"
+import cam from "../images/cam.png"
 
 import { useState } from "react";
 
-import { FaEllipsisH, FaShare , FaCamera } from "react-icons/fa";
+
 
 export default function PSpace() {
   const linksArray = [
@@ -60,17 +63,17 @@ export default function PSpace() {
 
        <div className="toggle">
         <div className="desktopIcon">
-       <FaShare/> 
+       <img src={share} alt="" /> 
        </div>
        <div className="mobileIcon">
-       <FaEllipsisH/> 
+       <img src={escp} alt="" /> 
        </div>
       </div>
       
        <div className="person">
        <figure onClick={()=> setProfile(!profile)}>
         <img src={Adewumi} alt="Pretty lady"  id="profile__img"/>
-      {profile && <div className="camera"> <FaCamera/></div>}
+      {profile && <div className="camera"> <img src={cam} alt="" /></div>}
      <figcaption>
           <p id="twitter">Adewumi</p>
           <p id="slack" >Adewumi</p>
