@@ -1,7 +1,7 @@
 import "./PSpace.css"
 // import slack from "../images/vector.svg"
 import github from "../images/Icon.svg"
-import vectom from "../images/vectom.png"
+import vectom from "../images/Zuri.png"
 import footertext from "../images/Footer text.png"
 import I4G from "../images/I4G.png"
 import slack from "../images/slack.png"
