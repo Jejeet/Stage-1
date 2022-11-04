@@ -11,6 +11,7 @@ import escp from "../images/esclipsis.png"
 import cam from "../images/cam.png"
 
 import { useState } from "react";
+import { Link } from "react-router-dom"
 
 
 
@@ -52,7 +53,7 @@ export default function PSpace() {
      content: "Design Books",
      id:"book__design",
      title:"This is a free Design books from Zuri. At Zuri, we care about good design and we are happy to help with your design"
-  }
+  },
   ]
   
   const [profile,setProfile] = useState(false);
@@ -89,6 +90,7 @@ export default function PSpace() {
           return  <a href={links.link} target="_blank" rel="noreferrer" title={links.title} id={links.id} className="training" key={id}>{links.content}</a>
         
         })}
+        <Link to = "/contact" className="training" id="contact">Contact</Link>
         </div>
 
        <div className="nav">
