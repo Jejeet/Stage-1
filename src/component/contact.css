@@ -64,6 +64,16 @@ button{
     padding:0.5rem ;
     margin-top: 0.5rem;
 }
+button:hover{
+  background-color: #175CD3;  
+}
+button:focus{
+    background-color:#1570EF ;
+}
+button:disabled{
+    background-color: #B2DDFF;
+}
+
 textarea{
     resize: none;
 }
