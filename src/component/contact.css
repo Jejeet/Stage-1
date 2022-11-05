@@ -24,6 +24,11 @@ p{
     grid-template-columns: repeat(2,1fr);
    gap: 0.5rem;
 }
+#email:focus{
+    outline:1px solid #84CAFF;
+    Offset: 0px, 1px
+rgba(16, 24, 40, 0.05);
+}
 .inputs{
     display: flex;
     flex-direction: column;
@@ -76,6 +81,16 @@ button:disabled{
 
 textarea{
     resize: none;
+}
+textarea:focus{
+    outline: 1px solid#F89687 ;
+   Offset: 0px, 0px #FFD3CC;
+}
+.error{
+    color: #F83F23;
+    font-size: 0.85rem;
+    padding-bottom: 0.5rem;
+    
 }
 footer{
     margin: 2rem auto;
