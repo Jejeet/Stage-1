@@ -82,7 +82,7 @@ export default function PSpace() {
        </figure>
 
        </div>
-
+      
        </div>
 
        <div className="links" >
@@ -94,15 +94,11 @@ export default function PSpace() {
         </div>
 
        <div className="nav">
-        
-
       <div className="icons" >
         <div className="slack"><a href="https://app.slack.com" target="_blank"  rel="noreferrer" > <img src={slack} alt="" /> </a></div>
         <a href="https://github.com/Jejeet" target="_blank"  rel="noreferrer"><img src={github} alt="" /></a>
 
         </div>
-
-
        </div>
        <hr />
        <div className="footer">
