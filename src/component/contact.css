@@ -24,26 +24,31 @@ p{
     grid-template-columns: repeat(2,1fr);
    gap: 0.5rem;
 }
-#email:focus{
-    outline:1px solid #84CAFF;
-    Offset: 0px, 1px
-rgba(16, 24, 40, 0.05);
-}
+
+
 .inputs{
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
 }
 input,textarea{
- padding: 0.5rem;
+ padding: 1rem;
  border-radius: 0.5rem;
  border: 1px solid #D0D5DD;
 }
+input:focus{
+    outline: none;
 
+}
 
 input::placeholder , textarea::placeholder{
     color: #667085;
     font-size: 0.8rem;
+}
+#email:focus{
+    outline:1px solid #84CAFF;
+    Offset: 0px, 1px
+rgba(16, 24, 40, 0.05);
 }
 label{
     color: #344054;
