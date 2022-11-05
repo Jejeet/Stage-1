@@ -12,8 +12,9 @@ form{
 .body{
     padding-top: 1.2rem;
 }
-h2{
+h3{
     color: #101828;
+    font-size: 3rem;
 }
 p{
     color: #475467;
@@ -23,6 +24,7 @@ p{
     display: grid;
     grid-template-columns: repeat(2,1fr);
    gap: 0.5rem;
+   
 }
 
 
@@ -35,6 +37,7 @@ input,textarea{
  padding: 1rem;
  border-radius: 0.5rem;
  border: 1px solid #D0D5DD;
+ 
 }
 input:focus{
     outline: none;

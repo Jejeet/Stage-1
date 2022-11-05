@@ -53,7 +53,7 @@ const Contact =()=>{
 
        <form >
            
-            <h2>Contact Me</h2> <br />
+            <h3>Contact Me</h3> <br />
             <p> Hi there, contact me to ask me about anything you have in mind </p>
             
             <div className="body">
@@ -77,7 +77,7 @@ const Contact =()=>{
              <div className= "inputs">
 
                 <label>Email</label> 
-                <input type="email"  placeholder='yourname@gmail.com' id='email' name='email'  onChange={e =>setEmail(e.target.value)} /> 
+                <input type = "email" placeholder='yourname@gmail.com' id='email' name='email'  onChange={e =>setEmail(e.target.value)} /> 
               </div> 
               {emailError? <p className='error'>This is not a valid email format</p> : "" }
 
