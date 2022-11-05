@@ -6,9 +6,11 @@
     justify-content: center;
 }
 form{
+   width: 50% ;
+   margin: 2rem auto 0;
     
-    margin: 3rem auto 0;
 }
+
 .body{
     padding-top: 1.2rem;
 }
@@ -114,4 +116,19 @@ footer{
 hr{
    
     margin-top: 6rem;
+}
+@media (max-width:769px){
+    form{
+        width: 100%;
+    }
+}
+@media (max-width:427px) {
+    .persons{
+        display: flex;
+        flex-direction: column;
+    }
+    form{
+        width: 100% !important;
+        margin: 0 auto;
+    }
 }
